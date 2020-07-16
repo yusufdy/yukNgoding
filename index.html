@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YukNgoding</title>
+    <link rel="shortcut icon" href="image/pngfind.com-cup-icon-png-3331514.png">
+    <link rel="stylesheet" href="bootstraps/bootstrap.min.css">
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="bootstraps/bootstrap.min.js"></script>
+    <script src="bootstraps/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstraps/popper.min.js"></script>
+    <script src="plugin/typeit.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="#">YukNgoding</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4" id="banner"></h1>
+    </div>
+  </div>
+  <div class="container">
+    <a href="" class="btn btn-outline-info bannerbtn">Belajar Sekarang!</a>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 text-dark">
+        <p>Di era kini sekarang, belajar jadi sangat mudah sekali, yaps tentunya kita bisa belajar pemrograman dan tentunya ini sangat gratis!</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="image/1yRhwqQy7.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+ 
+
+
+</body>
+<script>
+  new TypeIt("#banner", { 
+    strings: ["Hello World.", "Belajar Coding Yuk"],
+    speed: 120,
+    loop: true,
+    })
+    .go();
+</script>
+</html>

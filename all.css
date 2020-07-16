@@ -1,0 +1,22 @@
+body{
+    color: white;
+}
+
+.jumbotron{
+    background-image: url(image/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    height: 720px;
+    background-size: cover;
+
+}
+
+#banner{
+    font-family: cursive;
+    font-size: 80px;
+    margin-top: 90px;
+}
+
+.bannerbtn{
+    margin-top: -400px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
