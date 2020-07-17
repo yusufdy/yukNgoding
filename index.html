@@ -7,7 +7,9 @@
     <link rel="shortcut icon" href="image/pngfind.com-cup-icon-png-3331514.png">
     <link rel="stylesheet" href="bootstraps/bootstrap.min.css">
     <link rel="stylesheet" href="all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <script src="node_modules/aos/dist/aos.js"></script>
     <script src="bootstraps/bootstrap.min.js"></script>
     <script src="bootstraps/jquery-3.5.1.slim.min.js"></script>
     <script src="bootstraps/popper.min.js"></script>
@@ -42,23 +44,64 @@
     </div>
   </div>
   <div class="container">
-    <a href="" class="btn btn-outline-info bannerbtn">Belajar Sekarang!</a>
+    <a href="" class="btn btn-outline-info bannerbtn text-light">Belajar Sekarang!</a>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 text-dark">
-        <p>Di era kini sekarang, belajar jadi sangat mudah sekali, yaps tentunya kita bisa belajar pemrograman dan tentunya ini sangat gratis!</p>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-6 text-dark" data-aos="fade-down">
+        <p class="text1 text-break">Di era kini sekarang, belajar jadi sangat mudah sekali, yaps tentunya kita bisa belajar pemrograman dan tentunya ini sangat <b>Gratis!</b> </p>
       </div>
-      <div class="col-sm-6">
-        <img src="image/1yRhwqQy7.png" class="img-fluid" alt="">
+      <div class="col-sm-6" data-aos="fade-down">
+        <img src="image/1yRhwqQy7.png" class="img-fluid img1" alt="">
+      </div>
+  </div>
+  <div class="row mt-5 ">
+    <div class="col-sm-6 text-dark" data-aos="fade-down">
+      <img src="image/Rl9nRU6ML.png" class="img-fluid img2" alt="">
+    </div>
+    <div class="col-sm-6 text-dark" data-aos="fade-down">
+      <p class="text2 text-break">
+        Belajarlah Sepuasnya dan belajarlah dimanapun
+      </p>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <hr>
+    <p class="text3 text-break text-center">
+      Ayo kembangkan skillmu sekarang juga! <br>
+      Sebelum waktumu terlambat
+    </p>
+    <div class="row">
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-nodejs-480.png" class="img-fluid nodejsicon" alt="">
+      </div>
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-code-96.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-python-480.png" class="img-fluid pythonicon" alt="">
+      </div>
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-java-96.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-php-logo-128.png" class="img-fluid pythonicon" alt="">
+      </div>
+      <div class="col-sm-2" data-aos="fade-out">
+        <img src="image/icons8-javascript-96.png" class="img-fluid pythonicon" alt="">
       </div>
     </div>
+    <img src="image/undraw_code_inspection_bdl7.png" class="img-fluid" 
+    alt="">
   </div>
  
 
 
 </body>
 <script>
+  AOS.init();
+
   new TypeIt("#banner", { 
     strings: ["Hello World.", "Belajar Coding Yuk"],
     speed: 120,

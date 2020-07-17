@@ -9,14 +9,79 @@ body{
 
 }
 
+.img1{
+    margin-bottom: 10px;
+}
+.img2{
+    margin-bottom: 20px;
+}
+
 #banner{
     font-family: cursive;
     font-size: 80px;
-    margin-top: 90px;
+    margin-top: -10px;
 }
 
 .bannerbtn{
     margin-top: -400px;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
+}
+
+.text1{
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+}
+
+.text2{
+    font-family: 'poppins', sans-serif;
+    font-size: 25px;
+}
+
+.text3{
+    font-family: 'poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+hr{
+    margin-bottom: 130px;
+}
+
+.nodejsicon{
+    height: 100px;
+}
+
+.pythonicon{
+    height: 100px;
+}
+
+@media (min-width: 992px) {
+    #banner{
+        margin-top: 70px;
+    }
+
+    .text1{
+        margin-top: 270px;
+        font-size: 25px ;
+    }
+    
+    .text2{
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+    .img1{
+        margin-top: 70px;
+    }
+
+    .img2{
+        background-size: 400px ;
+    }
+
+    .text3{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    
 }
