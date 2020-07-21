@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     color: white;
 }
@@ -10,10 +14,11 @@ body{
 }
 
 .img1{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .img2{
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 #banner{
@@ -29,32 +34,46 @@ body{
 }
 
 .text1{
-    font-family: 'poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 24px;
 }
 
 .text2{
-    font-family: 'poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
 }
 
 .text3{
-    font-family: 'poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 25px;
     color: black;
 }
 
 hr{
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 }
 
 .nodejsicon{
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.pythonicon{
-    height: 100px;
+.card{
+    margin: 15px;
+    background-color: rgb(163, 190, 163);
+    padding: 5px;
+    transition: 0.3s;
 }
+
+.card:hover{
+    background-color: rgb(83, 88, 83);
+    opacity: 0.6;
+}
+
+
+
 
 @media (min-width: 992px) {
     #banner{
@@ -68,7 +87,7 @@ hr{
     
     .text2{
         font-size: 25px;
-        margin-top: 200px;
+        margin-top: 280px !important;
     }
 
     .img1{
@@ -83,5 +102,31 @@ hr{
         margin-top: 0px;
         font-size: 40px;
     }
+
+    .card{
+        margin: -10px;
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    .nodejsicon{
+        height: 100px !important;
+        margin-top: 100px;
+        margin-left: 400px;
+    }
     
+    .img3{
+        height: 620px;
+        margin-right: 120px !important;
+    }
+
+    .colhome{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .con1{
+        background-color: rgb(205, 216, 205);
+    }
+
 }
