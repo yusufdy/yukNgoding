@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="bootstraps/bootstrap.min.js"></script>
     <script src="bootstraps/popper.min.js"></script>
@@ -25,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Features</a>
@@ -119,14 +122,18 @@
       <div class="col-sm-4">
         <div class="box3 text-center">
           <img src="image/icons8-presentation-100.png" class="img-fluid" alt="">
-          <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate deserunt provident odit ipsa voluptatum quidem saepe officiis explicabo quae ipsam tenetur praesentium repellendus, iusto, eveniet et culpa dicta, minima nam.</p>
+          <p class="text-dark text7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate deserunt provident odit ipsa voluptatum quidem saepe officiis explicabo quae ipsam tenetur praesentium repellendus, iusto, eveniet et culpa dicta, minima nam.</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="banner2">
-    <img src="image/safar-safarov-LKsHwgzyk7c-unsplash.jpg" class="banner2 img-fluid" alt="">
-  </div>
+  <section class="footer">
+    <div class="container text-center">
+      <p class="text-center text8">YukNgoding</p>
+      <p id="footer" class="text9"></p>
+      <a href="home.html" class="btn btn-outline-dark text-light button1 text-center">Belajar Sekarang</a>
+    </div>
+  </section>
 
 
 </body>
@@ -134,9 +141,15 @@
   AOS.init();
 
   new TypeIt("#banner", { 
-    strings: ["Hello World.", "Belajar Coding Yuk"],
+    strings: ["Hello World.", "Belajar Coding Yuk!"],
     speed: 120,
-    loop: true,
+    })
+    .go();
+
+    new TypeIt("#footer", { 
+    strings: ["Mulai Sekarang?"],
+    speed: 200,
+    waitUntilVisible: true,
     })
     .go();
 </script>

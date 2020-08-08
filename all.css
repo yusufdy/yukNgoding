@@ -80,7 +80,58 @@ hr{
 .box3{
     padding: 10px;
 }
-/* Large devices (desktops, 992px and up) */
+.footer{
+    margin-top: 50px;
+    background-color: rgb(39, 40, 43);
+    height: 300px;
+    padding: 30px;
+}
+.icon{
+    margin-top: 60px;
+}
+.text8{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.text9{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.button1{
+    margin-top: 50px;
+}
+.sidebar{
+    background-color: rgb(75, 75, 77);
+    left: 0;
+    top: 0;
+    position: fixed; 
+    height: 100%;
+    width: 250px;
+    padding: 20px;
+}
+.icon2{
+    margin-top: 70px;
+}
+.content{
+    background-color: rgb(224, 218, 209);
+    padding: 30px;
+    height: 100%;
+}
+.login{
+    height: 300px;
+    margin-top: 100px;
+}
+.button2{
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+    /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #banner{
         margin-top: 70px;
@@ -133,6 +184,7 @@ hr{
 
     .con1{
         background-color: rgb(205, 216, 205);
+        padding: 20px;
     }
     .text4{
         font-family: 'Poppins', sans-serif;
@@ -150,8 +202,44 @@ hr{
         background-size: cover;
         text-align: center;
     }
-    
-
+    .text7{
+        margin-top: 10px;
+    }
+    .text8{
+        font-family: 'Roboto', sans-serif;
+    }
+    .text10{
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        text-align: center;
+    }
+    .text11{
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        margin-top: 400px;
+    }
+    .text12{
+        font-family: 'Raleway', sans-serif;
+        color: black;
+    }
+    .text13{
+        font-family: 'Mulish', sans-serif;
+        color: black;   
+    }
+    .text14{
+        margin-top: 40px;
+        margin-left: -20px;
+    }.form{
+        margin-top: 100px;
+        height: 20px;
+    }
+    .img4{
+        height: 400px;
+    }
+    .input1{
+        margin: 5px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
